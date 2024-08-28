@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.solo-yo {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#definicion {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.caja {
+    background-color: gray;
+    min-height: 500px;
+    padding: 20px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px
+}
+.caja-dos {
+    background-color: cadetblue;
+    min-height: 520px;
+    padding: 20px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px
+}
+.caja-tres {
+    background-color: darkgray;
+    min-height: 520px;
+    padding: 20px;
+    font-size: 1rem;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px
+}
+
+.Contactame {
+    color: whitesmoke;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 8px; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%; 
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .cajas {
+        flex-direction: column;
+    }
+    .solo-yo {
+        margin-bottom: 10px;
+    }
+}
